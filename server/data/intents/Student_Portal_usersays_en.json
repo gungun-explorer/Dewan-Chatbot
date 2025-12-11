@@ -146,5 +146,40 @@
     "isTemplate": false,
     "count": 0,
     "updated": 0
+  },
+  {
+    "id": "portal_21",
+    "data": [{ "text": "how can i access erp portal", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_22",
+    "data": [{ "text": "erp access kaise kare", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_23",
+    "data": [{ "text": "college erp system access", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_24",
+    "data": [{ "text": "my college portal login", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_25",
+    "data": [{ "text": "instituteoncloud.com access", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
   }
 ]

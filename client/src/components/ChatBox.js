@@ -221,8 +221,13 @@ const ChatBox = () => {
               <p className="whitespace-pre-wrap text-sm leading-relaxed">
                 {msg.text}
               </p>
-              <div className="flex items-center gap-2 mt-2 flex-wrap">
-                <span className="text-xs text-gray-500 ml-auto">
+              <div className="flex items-center gap-2 mt-2.5 flex-wrap">
+                <span
+                  className={`text-xs font-semibold ml-auto ${
+                    msg.sender === "user"
+                      ? "text-white/90"
+                      : "text-gray-700 bg-gray-200/80 px-2 py-1 rounded-md backdrop-blur-sm"
+                  }`}>
                   {msg.timestamp.toLocaleTimeString([], {
                     hour: "2-digit",
                     minute: "2-digit",
