@@ -33,15 +33,69 @@ npm run dev
 ## Features
 
 - Hybrid NLP (node-nlp) + Gemini AI fallback
-- 12 trained intents for college information
+- 19 trained intents for comprehensive college information
 - Confidence threshold: 0.75 (uses Gemini for low-confidence queries)
-- Modern React UI with source attribution badges
+- Modern React UI with real-time chat interface
+- Detailed responses with specific college data (placements, scholarships, facilities, etc.)
 
 ## Tech Stack
 
-- **Frontend**: React 18.2, Axios
-- **Backend**: Node.js, Express, node-nlp, Google Gemini AI
-- **Deployment**: Render (backend) + Vercel (frontend)
+### Frontend
+
+- **Framework**: React 18.2.0
+- **Styling**: Tailwind CSS 3.4.17 with custom configuration
+- **HTTP Client**: Axios 1.6.5
+- **UI Components**: Custom ChatBox component with responsive design
+- **Build Tool**: Create React App (Webpack)
+- **State Management**: React Hooks (useState, useEffect, useRef)
+
+### Backend
+
+- **Runtime**: Node.js (v18.0.0+)
+- **Framework**: Express 4.18.2
+- **NLP Engine**: node-nlp 4.27.0 (Natural Language Processing)
+- **AI Integration**: @google/genai 1.0.0 (Google Gemini 2.5 Flash model)
+- **Middleware**:
+  - CORS 2.8.5 (Cross-Origin Resource Sharing)
+  - body-parser 1.20.2 (Request parsing)
+  - dotenv 16.3.1 (Environment configuration)
+
+### NLP Training Data
+
+- **Format**: Dialogflow JSON intent structure
+- **Total Intents**: 19 (12 original + 7 detailed intents)
+- **Languages**: English + Hinglish support
+- **Intent Categories**:
+  - Admission Process & Eligibility
+  - Placements & Career Statistics
+  - Student Clubs & Activities
+  - Scholarships & Financial Aid
+  - Transport & Bus Routes
+  - Campus Facilities & Labs
+  - Faculty Information
+  - Course Details (MCA, B.Tech, MBA, etc.)
+  - Fee Structure
+  - College Location & Contact
+
+### Deployment
+
+- **Backend Hosting**: Render (Free Tier)
+- **Frontend Hosting**: Vercel
+- **CI/CD**: GitHub integration with automatic deployments
+- **Configuration**: render.yaml (Blueprint deployment)
+- **Environment Variables**: Managed via platform dashboards
+
+### Architecture
+
+```
+Client (React) → API Gateway (Express) → NLP Classifier (node-nlp)
+                                              ↓
+                                    [Confidence Check]
+                                         ↙        ↘
+                              High (≥0.75)    Low (<0.75)
+                                   ↓              ↓
+                            Intent Response   Gemini AI Fallback
+```
 
 ## API Endpoints
 

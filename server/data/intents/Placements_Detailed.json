@@ -1,0 +1,31 @@
+{
+  "id": "placements_detailed",
+  "name": "Placement_Stats",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "default",
+          "speech": [
+            "We have an excellent placement record! 🎯\n\n📊 2024-25 Highlights:\n• Highest Package: ₹15.7 LPA (Gartner) - Aditi Dev\n• Second Highest: ₹8.5 LPA - Vaibhav Binjola\n• Average Package: ₹4 LPA\n\n🏢 Top Recruiters:\n• Gartner\n• TCS\n• Wipro\n• Infosys\n• Tech Mahindra\n• Cognizant\n\nOur Placement Cell provides:\n✅ Technical interview training\n✅ Resume building workshops\n✅ Mock interviews\n✅ Soft skills development\n\nWe prepare you not just for jobs, but for successful careers!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

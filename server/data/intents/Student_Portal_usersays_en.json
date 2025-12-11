@@ -1,0 +1,150 @@
+[
+  {
+    "id": "portal_01",
+    "data": [{ "text": "student portal kya hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_02",
+    "data": [
+      { "text": "my fee status check kaise kare", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_03",
+    "data": [{ "text": "fee paid hai ya baaki hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_04",
+    "data": [{ "text": "holiday schedule batao", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_05",
+    "data": [{ "text": "college schedule kya hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_06",
+    "data": [{ "text": "class timetable kaha milega", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_07",
+    "data": [{ "text": "student notifications", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_08",
+    "data": [
+      { "text": "college announcements kaha dekhe", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_09",
+    "data": [{ "text": "ERP portal access kaise kare", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_10",
+    "data": [
+      { "text": "dewan.instituteoncloud.com kya hai", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_11",
+    "data": [{ "text": "ERP ID kya hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_12",
+    "data": [{ "text": "attendance check kaise kare", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_13",
+    "data": [{ "text": "grades aur results dekhe", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_14",
+    "data": [{ "text": "mera fee karna baaki hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_15",
+    "data": [{ "text": "portal password kya hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_16",
+    "data": [{ "text": "latest notifications", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_17",
+    "data": [{ "text": "holidays kab se kab tak hain", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_18",
+    "data": [{ "text": "fee payment status check", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_19",
+    "data": [{ "text": "I-Card par ERP ID kaha milegi", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "portal_20",
+    "data": [
+      { "text": "portal access ke liye login details", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "id": "scholarships",
+  "name": "Scholarship_Info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "default",
+          "speech": [
+            "Yes! We offer multiple scholarship opportunities for deserving students: 💰\n\n🏆 College Scholarships:\n1. Shri V.S. Dewan Merit Scholarship\n   • For meritorious students with high academic scores\n   • Based on entrance exam performance\n   • Covers partial to full tuition\n\n🎓 Government Scholarships:\n2. UP Samaj Kalyan Scholarship\n   • For SC/ST/OBC students\n   • Income-based eligibility\n   • Direct government benefit\n\n📋 How to Apply:\n✅ Visit the Admin Office with your income certificate\n✅ Submit caste certificate (if applicable)\n✅ Fill scholarship application form\n✅ Attach bank account details\n\nScholarships are processed within 2-3 months. Apply early to avoid delays!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

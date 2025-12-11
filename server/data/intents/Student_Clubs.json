@@ -1,0 +1,31 @@
+{
+  "id": "student_clubs",
+  "name": "Clubs_Activities",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "default",
+          "speech": [
+            "Life at DVSGI is vibrant and engaging! 🎉\n\n🔬 Technical Clubs:\n• Code-Warm Club (CSE/IT) - Coding competitions, hackathons\n• C V Raman Technical Club - Science projects & innovation\n• Vikram Sarabhai Club (Mechanical) - Robotics & engineering\n\n🎯 Annual Events:\n• Spardha - Annual Sports Festival\n• Alumni Meet - Every March 8th\n• Tech Fests & Hackathons\n• Blood Donation Camps\n• Cultural Programs\n\n💡 Benefits:\n✅ Develop technical skills\n✅ Network with industry experts\n✅ Participate in competitions\n✅ Build your resume\n\nJoin clubs during orientation week and make your college life memorable!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

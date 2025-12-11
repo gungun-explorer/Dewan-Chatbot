@@ -1,0 +1,31 @@
+{
+  "id": "transport_info",
+  "name": "Transport_Bus",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "default",
+          "speech": [
+            "Yes! The college provides bus transportation facilities for students and staff. 🚌\n\n📍 Bus Routes Available:\n• Meerut City (Main areas)\n• Begum Bridge\n• Modinagar\n• Delhi Road\n• Hapur Road\n\n💡 How to Book:\n✅ Contact the admission office during admission process\n✅ Fill bus registration form\n✅ Pay transportation fees (semester-wise)\n✅ Get your bus pass\n\n⏰ Timings:\n• Morning: Pickup from designated stops\n• Evening: Drop after college hours\n\n📞 For route details and availability, contact:\nTransport Office: 0121-2440315\n\nBook your seat early as buses fill up quickly!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

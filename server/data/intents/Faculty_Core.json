@@ -1,0 +1,31 @@
+{
+  "id": "faculty_core",
+  "name": "Faculty_Info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "default",
+          "speech": [
+            "Our faculty comprises highly qualified and experienced educators! 👨‍🏫\n\n🎓 Department HODs:\n\n• MCA Department\n  HOD: Mr. Pawan Kumar Goel\n  Focus: Software Development, Cloud Computing\n\n• Computer Science & Engineering (CSE)\n  HOD: Dr. Rajeev Kaushik\n  Focus: AI, Machine Learning, Data Science\n\n• MBA Department\n  HOD: Dr. Megha Vimal Gupta\n  Focus: Business Management, Marketing\n\n💡 Teaching Approach:\n✅ Industry-relevant curriculum\n✅ Practical hands-on learning\n✅ Guest lectures from industry experts\n✅ Project-based assessments\n✅ Mentorship programs\n\nOur faculty ensures a perfect blend of theoretical knowledge and practical skills to make you industry-ready!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

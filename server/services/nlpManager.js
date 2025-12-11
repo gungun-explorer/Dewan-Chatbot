@@ -26,16 +26,21 @@ class NLPManager {
       }
 
       const files = fs.readdirSync(intentsDir);
-      const responseFiles = files.filter((f) => !f.includes("_usersays_en"));
+      const responseFiles = files.filter(
+        (f) => !f.includes("_usersays_en") && f.endsWith(".json")
+      );
       const usersaysMap = new Map();
 
-      // Build map of user says files
+      // Build map of user says files for faster lookup
       files.forEach((f) => {
-        if (f.includes("_usersays_en")) {
+        if (f.includes("_usersays_en.json")) {
           const intentName = f.replace("_usersays_en.json", "");
           usersaysMap.set(intentName, f);
         }
       });
+
+      let processedIntents = 0;
+      const skippedIntents = [];
 
       // Process each intent
       for (const file of responseFiles) {
@@ -47,22 +52,18 @@ class NLPManager {
           intentName.toLowerCase().includes("fallback") ||
           intentName.toLowerCase().includes("welcome")
         ) {
+          skippedIntents.push(intentName);
           continue;
         }
 
         try {
           const intentData = JSON.parse(fs.readFileSync(intentPath, "utf-8"));
 
-          // Extract response
+          // Extract response (optimized path)
           let response = "";
-          if (intentData.responses && intentData.responses.length > 0) {
-            const messages = intentData.responses[0].messages;
-            if (messages && messages.length > 0) {
-              const speechArray = messages[0].speech;
-              if (speechArray && speechArray.length > 0) {
-                response = speechArray[0];
-              }
-            }
+          const messages = intentData.responses?.[0]?.messages?.[0];
+          if (messages?.speech?.[0]) {
+            response = messages.speech[0];
           }
 
           // Get user says examples
@@ -73,14 +74,15 @@ class NLPManager {
               fs.readFileSync(usersaysPath, "utf-8")
             );
 
-            // Add training data
-            if (Array.isArray(usersaysData)) {
-              for (const item of usersaysData) {
-                if (item.data && item.data.length > 0) {
-                  const text = item.data[0].text;
+            // Add training data (optimized loop)
+            if (Array.isArray(usersaysData) && usersaysData.length > 0) {
+              usersaysData.forEach((item) => {
+                const text = item.data?.[0]?.text;
+                if (text) {
                   this.manager.addDocument("en", text, intentName);
                 }
-              }
+              });
+              processedIntents++;
             }
           }
 
@@ -90,7 +92,7 @@ class NLPManager {
           }
           this.manager.responses[intentName] = response;
         } catch (error) {
-          console.warn(`Error processing intent file ${file}:`, error.message);
+          console.warn(`⚠️ Error processing ${file}:`, error.message);
         }
       }
 
@@ -111,7 +113,9 @@ class NLPManager {
       console.warn = originalWarn;
 
       this.trained = true;
-      console.log(`✓ Chatbot ready with ${responseFiles.length} intents`);
+      console.log(
+        `✓ Chatbot ready with ${processedIntents} active intents (${skippedIntents.length} skipped)`
+      );
     } catch (error) {
       console.error("Error training NLP model:", error);
       throw error;

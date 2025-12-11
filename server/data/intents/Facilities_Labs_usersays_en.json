@@ -1,0 +1,116 @@
+[
+  {
+    "id": "facilities_01",
+    "data": [{ "text": "college facilities kya hain", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_02",
+    "data": [{ "text": "labs kaisi hain", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_03",
+    "data": [{ "text": "library mein kitni books hain", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_04",
+    "data": [{ "text": "computer labs available hain", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_05",
+    "data": [{ "text": "Tinkering Lab kya hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_06",
+    "data": [{ "text": "sports facilities batao", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_07",
+    "data": [{ "text": "cafeteria hai kya", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_08",
+    "data": [{ "text": "AI lab hai campus mein", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_09",
+    "data": [{ "text": "library timing kya hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_10",
+    "data": [{ "text": "IEEE access milta hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_11",
+    "data": [{ "text": "smart classrooms hain kya", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_12",
+    "data": [{ "text": "wifi available hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_13",
+    "data": [
+      { "text": "campus infrastructure kaisa hai", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_14",
+    "data": [{ "text": "parking facility hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_15",
+    "data": [{ "text": "medical room hai campus mein", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "facilities_16",
+    "data": [{ "text": "IoT lab kaha hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

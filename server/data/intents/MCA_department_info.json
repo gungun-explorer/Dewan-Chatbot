@@ -1,5 +1,5 @@
 {
-  "id": "889f9ff0-d2bf-4661-b273-ffa547c4e923",
+  "id": "mca_department_info",
   "name": "MCA_department_info",
   "auto": true,
   "contexts": [],
@@ -12,23 +12,12 @@
       "messages": [
         {
           "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en",
+          "platform": "default",
           "speech": [
-            "Welcome to the MCA Department! Our Master of Computer Applications (MCA) program is designed to shape you into a skilled software professional, developer \u0026 IT expert. ✅ Industry-oriented curriculum ✅ Expert faculty ✅ Practical labs ✅ Real project exposure. Join MCA to build your IT future with confidence!"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en",
-          "condition": ""
+            "Welcome to the MCA Department at DVSGI! 🎓\n\nOur Master of Computer Applications (MCA) program:\n✅ 2-year program affiliated with AKTU Lucknow\n✅ HOD: Mr. Pawan Kumar Goel\n✅ Specializations: Software Development, Cloud Computing, AI/ML\n✅ Total Fee: ₹1.40L (2 years)\n✅ Advanced labs: AI, IoT, Tinkering Labs\n✅ Strong placements: Average ₹4 LPA, Highest ₹15.7 LPA\n\nEligibility: 50% in Graduation + Maths in 10+2\nContact: 0121-2440315 | www.dewaninstitutes.com"
+          ]
         }
-      ],
-      "speech": []
+      ]
     }
   ],
   "priority": 500000,

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "scholarship_01",
+    "data": [{ "text": "scholarship milti hai kya", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_02",
+    "data": [{ "text": "financial aid available hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_03",
+    "data": [{ "text": "scholarship kaise milegi", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_04",
+    "data": [{ "text": "merit scholarship hai kya", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_05",
+    "data": [{ "text": "Shri VS Dewan scholarship", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_06",
+    "data": [
+      {
+        "text": "government scholarship apply kaise kare",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_07",
+    "data": [{ "text": "SC ST scholarship milti hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_08",
+    "data": [{ "text": "scholarship ke liye documents", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_09",
+    "data": [
+      { "text": "income certificate chahiye kya", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_10",
+    "data": [{ "text": "financial help chahiye", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_11",
+    "data": [{ "text": "UP Samaj Kalyan scholarship", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_12",
+    "data": [{ "text": "scholarship form kaha milega", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_13",
+    "data": [{ "text": "fee concession milti hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_14",
+    "data": [{ "text": "poor students ke liye help", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "scholarship_15",
+    "data": [
+      { "text": "scholarship eligibility criteria", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

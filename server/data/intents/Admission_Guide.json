@@ -1,0 +1,31 @@
+{
+  "id": "admission_guide",
+  "name": "Admission_Help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "default",
+          "speech": [
+            "To take admission at DVSGI:\n\n✅ Step 1: Visit www.dewaninstitutes.com and click 'Apply Online'\n✅ Step 2: Submit documents: 10th/12th Marksheets, Migration Certificate, Graduation Degree (for PG), Aadhar Card, and 4 Passport Photos\n✅ Step 3: Pay the registration fee online\n\nEligibility:\n- MCA: 50% in Graduation + Maths in 10+2\n- B.Tech: 50% in 12th with PCM\n- MBA: 50% in Graduation\n\nNeed help? Call: 0121-2440315 or visit our campus at Partapur, Meerut."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

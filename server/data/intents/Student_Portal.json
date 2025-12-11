@@ -1,0 +1,31 @@
+{
+  "id": "student_portal",
+  "name": "Student_Portal",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "default",
+          "speech": [
+            "Welcome to the Student Portal! 📚\n\nFor all your personal details, notifications, fee status, and academic information:\n\n🌐 Access Portal: https://dewan.instituteoncloud.com\n\n📋 What You Can Access:\n✅ Personal Details & Profile\n✅ Notifications & Announcements\n✅ Holiday & Academic Calendar\n✅ Class Schedule & Timetable\n✅ Fee Status (Paid/Remaining)\n✅ Fee Payment History\n✅ Attendance Records\n✅ Academic Grades & Results\n✅ Important College Updates\n\n🔐 Login Credentials:\n• Username: Your ERP ID (mentioned on your I-Card)\n• Default Password: password\n• First Login: Change password for security\n\n⚠️ Important:\n- Always keep your credentials confidential\n- Change default password immediately after first login\n- Contact admin office if you forgot credentials\n\n📞 Support:\nFor portal issues, contact: 0121-2440315 or visit admin office"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

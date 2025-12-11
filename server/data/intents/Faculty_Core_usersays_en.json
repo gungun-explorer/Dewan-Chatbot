@@ -1,0 +1,109 @@
+[
+  {
+    "id": "faculty_01",
+    "data": [{ "text": "faculty kaisi hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_02",
+    "data": [{ "text": "HOD kaun hain MCA ke", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_03",
+    "data": [{ "text": "teachers experienced hain kya", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_04",
+    "data": [{ "text": "CSE department head", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_05",
+    "data": [{ "text": "Dr Rajeev Kaushik kaun hain", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_06",
+    "data": [{ "text": "MBA HOD batao", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_07",
+    "data": [{ "text": "teaching quality kaisi hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_08",
+    "data": [{ "text": "professors ki list", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_09",
+    "data": [{ "text": "department heads ke naam", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_10",
+    "data": [
+      { "text": "Pawan Kumar Goel sir kya padhate hain", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_11",
+    "data": [{ "text": "faculty qualifications", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_12",
+    "data": [{ "text": "teaching approach kya hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_13",
+    "data": [{ "text": "practical training milti hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_14",
+    "data": [{ "text": "Dr Megha Vimal Gupta", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "faculty_15",
+    "data": [{ "text": "guest lectures hote hain", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

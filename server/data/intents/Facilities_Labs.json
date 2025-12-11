@@ -1,0 +1,31 @@
+{
+  "id": "facilities_labs",
+  "name": "Campus_Facilities",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "default",
+          "speech": [
+            "Our campus is equipped with world-class facilities! 🏫\n\n💻 Academic Infrastructure:\n• Tinkering Labs - For innovation and prototyping\n• Advanced AI & IoT Labs - Latest technology\n• Computer Labs - High-speed systems with licensed software\n• Smart Classrooms - Digital learning environment\n\n📚 Central Library:\n• 18,200+ books collection\n• IEEE Digital Library access\n• E-journals and research papers\n• Reading rooms with Wi-Fi\n• Open 8 AM - 8 PM\n\n🏃 Sports & Recreation:\n• Expansive sports grounds\n• Indoor games facilities\n• Basketball & Volleyball courts\n\n🍽️ Other Amenities:\n• Spacious cafeteria\n• Medical room\n• ATM facility\n• Parking for students\n\nNote: No gym facility on campus currently."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

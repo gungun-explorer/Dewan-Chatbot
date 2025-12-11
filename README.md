@@ -1,46 +1,41 @@
-# Dewan Chatbot
+# Dewan Chatbot 🤖
 
-**MERN Stack Chatbot with Hybrid NLP + Gemini AI**
+**Hybrid NLP + Gemini AI Chatbot for Dewan VS Group of Institutions**
 
-A full-stack intelligent chatbot combining local NLP training (node-nlp) with Google Gemini AI fallback for Dewan VS Group of Institutions.
+A full-stack intelligent chatbot combining local NLP training (node-nlp) with Google Gemini AI fallback to provide accurate, helpful information about admissions, placements, facilities, and student life at DVSGI.
 
-## 🚀 Quick Start
+🌐 **Live Demo**: [https://dewanbot.vercel.app/](https://dewanbot.vercel.app/)
 
-```bash
-# Install dependencies
-npm install
-cd server && npm install
-cd ../client && npm install
 
-# Configure backend
-# Edit server/.env and add your GEMINI_API_KEY
-
-# Add your college logo (optional)
-# Place a 512x512px logo.png in client/public/
-
-# Run both servers
-cd ..
-npm run dev
-```
-
-Open http://localhost:3000 and start chatting!
 
 ## 📚 Full Documentation
 
 **See [DOCUMENTATION.md](DOCUMENTATION.md)** for complete guide including:
 
-- Installation & setup
-- Architecture overview
-- API documentation
-- Frontend & backend guides
-- Deployment instructions (Render + Vercel)
-- Troubleshooting
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 18, Axios, CSS3
-- **Backend**: Node.js, Express, node-nlp, Gemini AI
-- **Development**: nodemon, concurrently
+### Frontend
+
+- **React 18.2.0** - UI framework
+- **Tailwind CSS 3.4.17** - Utility-first styling
+- **Axios 1.6.5** - HTTP client
+- **Create React App** - Build tooling
+
+### Backend
+
+- **Node.js (v18+)** - Runtime environment
+- **Express 4.18.2** - Web framework
+- **node-nlp 4.27.0** - Natural Language Processing
+- **@google/genai 1.0.0** - Google Gemini AI integration
+- **CORS 2.8.5** - Cross-origin support
+- **dotenv 16.3.1** - Environment configuration
+
+### Deployment
+
+- **Frontend**: Vercel (Production)
+- **Backend**: Render (Production)
+- **Version Control**: GitHub
 
 ## 📁 Project Structure
 
@@ -54,20 +49,56 @@ dewan-chatbot/
 
 ## 🎯 Features
 
-- Hybrid NLP + Gemini AI system
-- Beautiful dark glassy UI
-- Source attribution badges
-- Confidence score display
-- Responsive mobile design
-- Auto-scroll & typing indicators
-- Suggested quick questions
+- **Hybrid Intelligence**: Local NLP (node-nlp) + Gemini AI fallback
+- **19 Trained Intents**: Comprehensive college information coverage
+- **Smart Routing**: 0.75 confidence threshold for optimal responses
+- **Modern UI**: Responsive design with Tailwind CSS
+- **Real-time Chat**: Instant responses with typing indicators
+- **Bilingual Support**: English + Hinglish queries
+- **Production Ready**: Deployed on Render + Vercel
 
-## 🚀 Deployment
+## 💬 Usage & Demo
 
-**Recommended:**
+### Try These Questions:
 
-- Backend → [Render](https://render.com) (free tier, persistent Node.js)
-- Frontend → [Vercel](https://vercel.com) (free tier, optimized for React)
+**Admissions:**
+
+- "admission process kya hai?"
+- "What documents are needed for admission?"
+- "How to apply online?"
+
+**Placements:**
+
+- "highest package kitna hai?"
+- "Which companies visit for placements?"
+- "Tell me about placement record"
+
+**Student Life:**
+
+- "college mein kya clubs hain?"
+- "What is Code-Warm Club?"
+- "Tell me about annual events"
+
+**Facilities:**
+
+- "library mein kitni books hain?"
+- "What labs are available?"
+- "Is there a bus facility?"
+
+**Scholarships:**
+
+- "scholarship milti hai kya?"
+- "Tell me about Shri VS Dewan scholarship"
+- "How to apply for financial aid?"
+
+### Sample Responses:
+
+**Q:** "What is the highest placement package?"  
+**A:** "We have an excellent placement record! 🎯 In 2024-25, Aditi Dev secured ₹15.7 LPA at Gartner. The average package is ₹4 LPA. Top recruiters include TCS, Wipro, Infosys, and Tech Mahindra."
+
+**Q:** "admission ke liye kya documents chahiye"  
+**A:** "To take admission at DVSGI: Submit documents: 10th/12th Marksheets, Migration Certificate, Graduation Degree (for PG), Aadhar Card, and 4 Passport Photos. Visit www.dewaninstitutes.com to apply online. Need help? Call: 0121-2440315"
+
 
 See [DOCUMENTATION.md](DOCUMENTATION.md) for detailed deployment steps.
 

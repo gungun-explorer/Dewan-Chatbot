@@ -1,0 +1,131 @@
+[
+  {
+    "id": "admission_help_01",
+    "data": [{ "text": "admission process kya hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_02",
+    "data": [{ "text": "how to take admission", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_03",
+    "data": [{ "text": "admission ke liye kya chahiye", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_04",
+    "data": [
+      { "text": "documents needed for admission", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_05",
+    "data": [{ "text": "admission kaise le", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_06",
+    "data": [{ "text": "apply online kaise kare", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_07",
+    "data": [{ "text": "admission form kaha milega", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_08",
+    "data": [{ "text": "registration process", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_09",
+    "data": [{ "text": "eligibility criteria kya hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_10",
+    "data": [{ "text": "MCA admission eligibility", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_11",
+    "data": [{ "text": "B.Tech admission process", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_12",
+    "data": [
+      { "text": "konse documents lagenge admission mein", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_13",
+    "data": [{ "text": "registration fee kitni hai", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_14",
+    "data": [{ "text": "admission contact number", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_15",
+    "data": [
+      { "text": "college mein admission lena hai", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_16",
+    "data": [
+      { "text": "migration certificate zaroori hai kya", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "admission_help_17",
+    "data": [
+      { "text": "photos kitni chahiye admission ke liye", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
