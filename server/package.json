@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "MERN Chatbot Backend with NLP and Gemini AI",
   "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "start": "node --no-deprecation server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "build": "echo 'No build step required'"
   },
   "keywords": [
     "chatbot",

@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: dewan-chatbot-backend
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: GEMINI_TIMEOUT_MS
+        value: 30000
+      - key: NLP_CONFIDENCE_THRESHOLD
+        value: 0.75
+      - key: GEMINI_API_VERSION
+        value: v1
+      - key: FRONTEND_URL
+        sync: false
+    healthCheckPath: /health

@@ -8,13 +8,49 @@ const NLPManager = require("./services/nlpManager");
 // Initialize Express app
 const app = express();
 
+// CORS Configuration for Render deployment
+const corsOptions = {
+  origin: [
+    "http://localhost:3000",
+    "http://localhost:5173",
+    process.env.FRONTEND_URL || "*",
+  ],
+  credentials: true,
+  optionsSuccessStatus: 200,
+};
+
 // Middleware
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Initialize NLP Manager
 const nlpManager = new NLPManager();
+
+// Root endpoint
+app.get("/", (req, res) => {
+  res.json({
+    name: "Dewan Chatbot API",
+    version: "1.0.0",
+    status: "online",
+    endpoints: {
+      health: "/health",
+      chat: "/api/chat",
+      intents: "/api/intents",
+    },
+    documentation: "https://github.com/gungun-explorer/Dewan-Chatbot",
+  });
+});
+
+// Simple health check endpoint
+app.get("/health", (req, res) => {
+  res.json({
+    status: "ok",
+    timestamp: new Date().toISOString(),
+    nlpTrained: nlpManager.isTrained(),
+    geminiConfigured: !!genAI,
+  });
+});
 
 // Initialize Gemini AI
 const geminiApiKey = process.env.GEMINI_API_KEY;
@@ -76,37 +112,41 @@ User Question: "${userInput}"
 
 Provide a helpful response (keep it concise):`;
 
-    const geminiCall = genAI.models.generateContent({
+    // Create timeout promise
+    const timeoutPromise = new Promise((_, reject) => {
+      setTimeout(() => {
+        reject(new Error(`Gemini API timeout after ${geminiTimeoutMs}ms`));
+      }, geminiTimeoutMs);
+    });
+
+    // Create API call promise
+    const apiPromise = genAI.models.generateContent({
       model: geminiModel,
-      contents: [
-        {
-          role: "user",
-          parts: [{ text: contextPrompt }],
-        },
-      ],
+      contents: contextPrompt,
       config: {
         temperature: 0.4,
         topP: 0.95,
       },
     });
 
-    let timeoutId;
-    const timeoutPromise = new Promise((_, reject) => {
-      timeoutId = setTimeout(() => {
-        reject(new Error(`Gemini API timeout after ${geminiTimeoutMs}ms`));
-      }, geminiTimeoutMs);
-    });
+    // Race between API call and timeout
+    const response = await Promise.race([apiPromise, timeoutPromise]);
 
-    const response = await Promise.race([geminiCall, timeoutPromise]);
+    // Extract text from response
+    let answer = response?.text;
 
-    if (timeoutId) {
-      clearTimeout(timeoutId);
+    // If text is empty, try alternative extraction
+    if (!answer && response?.candidates && response.candidates.length > 0) {
+      const candidate = response.candidates[0];
+      if (candidate?.content?.parts && candidate.content.parts.length > 0) {
+        answer = candidate.content.parts[0]?.text;
+      }
     }
 
-    const answer = response?.text?.trim();
+    answer = answer?.trim();
 
     if (!answer) {
-      throw new Error("No response from Gemini API");
+      throw new Error("No response text from Gemini API");
     }
 
     return {
@@ -132,7 +172,9 @@ Provide a helpful response (keep it concise):`;
  */
 app.post("/api/chat", async (req, res) => {
   try {
+    console.log("📥 Received request to /api/chat");
     const { message } = req.body;
+    console.log("Message:", message);
 
     if (!message || message.trim() === "") {
       return res.status(400).json({
@@ -141,7 +183,13 @@ app.post("/api/chat", async (req, res) => {
     }
 
     // Get NLP classification
+    console.log("🔍 Classifying message with NLP...");
     const nlpResult = await nlpManager.classify(message);
+    console.log(
+      "✓ NLP classification done:",
+      nlpResult.intent,
+      nlpResult.confidence
+    );
 
     let response;
     let source;
@@ -168,6 +216,7 @@ app.post("/api/chat", async (req, res) => {
         ).toFixed(1)}%)`
       );
       const geminiResult = await getGeminiResponse(message, intent);
+      console.log("✓ Got Gemini result:", geminiResult.source);
 
       if (geminiResult && geminiResult.answer) {
         response = geminiResult.answer;
@@ -182,6 +231,7 @@ app.post("/api/chat", async (req, res) => {
       }
     }
 
+    console.log("📤 Sending response...");
     res.json({
       message,
       response,
@@ -245,11 +295,14 @@ app.use((req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
+const NODE_ENV = process.env.NODE_ENV || "development";
 
-// Start server
+// Start server - listen on all interfaces
 const server = app.listen(PORT, () => {
   console.log(`🚀 Server listening on port ${PORT}`);
+  console.log(`📡 Environment: ${NODE_ENV}`);
   console.log(`📡 API endpoint: http://localhost:${PORT}/api/chat`);
+  console.log(`🔧 Health check: http://localhost:${PORT}/health`);
 
   // Initialize chatbot after server starts
   initializeChatbot()
@@ -258,6 +311,10 @@ const server = app.listen(PORT, () => {
     })
     .catch((err) => {
       console.error("Failed to initialize chatbot:", err);
+      // Don't exit in production, allow health check to report status
+      if (NODE_ENV !== "production") {
+        process.exit(1);
+      }
     });
 });
 

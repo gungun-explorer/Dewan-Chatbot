@@ -125,19 +125,6 @@ const ChatBox = () => {
     }, 0);
   };
 
-  const getSourceColor = (source) => {
-    switch (source) {
-      case "Local Bot":
-        return "#4CAF50";
-      case "Gemini AI":
-        return "#1976D2";
-      case "Error":
-        return "#F44336";
-      default:
-        return "#9C27B0";
-    }
-  };
-
   return (
     <div className="flex flex-col h-screen bg-gradient-to-br from-gray-50 via-gray-100 to-gray-200 font-sans">
       {/* Header */}
@@ -235,21 +222,6 @@ const ChatBox = () => {
                 {msg.text}
               </p>
               <div className="flex items-center gap-2 mt-2 flex-wrap">
-                {msg.source && msg.source !== "System" && (
-                  <span
-                    className="text-xs px-2 py-1 rounded-full font-semibold"
-                    style={{
-                      backgroundColor: getSourceColor(msg.source),
-                      color: "white",
-                    }}>
-                    {msg.source}
-                  </span>
-                )}
-                {msg.confidence !== undefined && (
-                  <span className="text-xs px-2 py-1 rounded-full bg-gray-200 text-gray-700 font-medium">
-                    {Math.round(msg.confidence * 100)}% confident
-                  </span>
-                )}
                 <span className="text-xs text-gray-500 ml-auto">
                   {msg.timestamp.toLocaleTimeString([], {
                     hour: "2-digit",
