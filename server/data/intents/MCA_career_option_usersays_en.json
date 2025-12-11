@@ -1,0 +1,54 @@
+[
+  {
+    "id": "92124642-4504-49db-a4e0-ee56db402ee2",
+    "data": [
+      {
+        "text": "Job after MCA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fc59f43e-aac7-460f-81ad-17ad77a1302f",
+    "data": [
+      {
+        "text": "MCA Scope",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ae73d077-475f-40dd-bc10-4f5ec6a9be8e",
+    "data": [
+      {
+        "text": "What after MCA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4de9d387-91c5-435a-903b-69db5d764088",
+    "data": [
+      {
+        "text": "MCA Career option",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

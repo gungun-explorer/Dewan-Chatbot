@@ -1,0 +1,41 @@
+[
+  {
+    "id": "9c47a873-ad82-4219-ae14-f3856ddf5faa",
+    "data": [
+      {
+        "text": " Location of Dewan VS?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ce65537-5ee7-46fa-ba8f-cd0734deaf07",
+    "data": [
+      {
+        "text": "Where is the college located?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ed1ec6d1-8680-4e7d-a5b5-de6b5b23839d",
+    "data": [
+      {
+        "text": " College address?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

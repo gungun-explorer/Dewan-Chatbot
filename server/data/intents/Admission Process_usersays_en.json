@@ -1,0 +1,54 @@
+[
+  {
+    "id": "6b19cb3a-8f4e-4950-b941-8ebab1c1b4fb",
+    "data": [
+      {
+        "text": "Admission process?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9fea9a87-3451-4bb4-9e4e-58209b1a78ce",
+    "data": [
+      {
+        "text": "How to apply?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aaf0a4fc-d9b3-4b40-a046-416fbf8a47aa",
+    "data": [
+      {
+        "text": "How can I take admission?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b228f929-d8b2-459b-976a-fc7bed55f825",
+    "data": [
+      {
+        "text": "  What is the admission process?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

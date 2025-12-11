@@ -1,0 +1,35 @@
+{
+  "id": "881bc1c5-cb0d-4cb4-a9fc-ed2a82f66cc9",
+  "name": "College Location",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Dewan VS Group of Institutions is located in:\n\nMeerut, Uttar Pradesh, India.\n\nYou can reach the campus easily by road and public transport."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

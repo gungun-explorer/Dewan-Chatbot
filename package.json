@@ -1,0 +1,11 @@
+{
+  "name": "dewan-chatbot-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm start --prefix client\"",
+    "start": "npm run start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

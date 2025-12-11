@@ -1,0 +1,35 @@
+{
+  "id": "efc1b88c-b246-4753-b110-e21a6dadc6bf",
+  "name": "Fees Structure",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The fee structure depends on the selected course.\n\n BCA – As per university norms, HM - As per university norms,  \n MCA – As per university norms,  \n B.Tech – Depends on branch,  \n MBA – As per management quota, PGDM - As per university norms\n\nFor exact fee details, please contact the college administration."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "980ca7e9-3ffb-4163-b726-c9be39724ae4",
+  "name": "MCA_Faculty_Appreciation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Heartfelt thanks to our respected MCA faculty team for their continuous guidance, mentorship \u0026 support. They are the true backbone of our department!\""
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

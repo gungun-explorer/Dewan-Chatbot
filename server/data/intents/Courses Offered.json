@@ -1,0 +1,51 @@
+{
+  "id": "e052a3ee-b054-47b3-951a-4fecbd116f4b",
+  "name": "Courses Offered",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4480a633-0fa9-4136-b6ad-96df71b49900",
+          "name": "music-artist",
+          "required": false,
+          "dataType": "@sys.music-artist",
+          "value": "$music-artist",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Dewan VS Group of Institutions offers the following courses: BCA- Bachelor of Computer Application, MCA- Master of Computer Applications, B-Tech-Engineering, MBA- Management, HM-Hotel Management, PGDM- Post Graduation Diploma in Management, BA LLB- Law."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

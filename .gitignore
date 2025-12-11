@@ -1,0 +1,37 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build output
+build/
+dist/
+
+# React
+.cache/
+*.tgz
+.parcel-cache
+
+# Testing
+coverage/
+.nyc_output/
+
+# Runtime
+tmp/
+temp/

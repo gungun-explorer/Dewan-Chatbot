@@ -1,0 +1,42 @@
+{
+  "id": "889f9ff0-d2bf-4661-b273-ffa547c4e923",
+  "name": "MCA_department_info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to the MCA Department! Our Master of Computer Applications (MCA) program is designed to shape you into a skilled software professional, developer \u0026 IT expert. ✅ Industry-oriented curriculum ✅ Expert faculty ✅ Practical labs ✅ Real project exposure. Join MCA to build your IT future with confidence!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

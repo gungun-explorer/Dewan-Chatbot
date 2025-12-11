@@ -1,0 +1,106 @@
+[
+  {
+    "id": "140aa681-b9e7-4f82-a0ee-f18055c6c3ec",
+    "data": [
+      {
+        "text": "MBA fees?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68c37494-908c-4448-a22f-b822bc0f2307",
+    "data": [
+      {
+        "text": "HM fees?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "29de563d-50e7-41d8-b342-eec59e74727a",
+    "data": [
+      {
+        "text": "LAW fees?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8844cf73-2cba-41f6-8768-3d5d44d490a1",
+    "data": [
+      {
+        "text": "PGDM fees?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "125ea2fe-b4d1-41e6-ba19-3829cb7058a7",
+    "data": [
+      {
+        "text": "BCA fees?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0e2f4192-9030-4864-a547-33d4871f2de3",
+    "data": [
+      {
+        "text": "MCA fees?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3afe6af8-5133-49ac-b616-78c0790194d2",
+    "data": [
+      {
+        "text": "What is the fee structure?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b967cec1-38b1-4317-9f91-0570d0cbd357",
+    "data": [
+      {
+        "text": " Course fees?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

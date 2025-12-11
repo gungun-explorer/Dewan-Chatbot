@@ -1,0 +1,90 @@
+[
+  {
+    "id": "a99cb525-25aa-494e-bae1-3b96898a6a3d",
+    "data": [
+      {
+        "text": "Engineering courses?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c347c0f8-93d2-4f82-8e88-dbbec7de0998",
+    "data": [
+      {
+        "text": "MCA course available?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1b20b8b8-833e-4db6-86b5-d3417421e184",
+    "data": [
+      {
+        "text": "BCA course available?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fcb97d17-f9f8-4c3c-bbf8-313324a2d79e",
+    "data": [
+      {
+        "text": "List of available courses.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d28770fc-522d-44b3-8df9-46c460aa156d",
+    "data": [
+      {
+        "text": "Which courses does Dewan ",
+        "userDefined": false
+      },
+      {
+        "text": "VS",
+        "meta": "@sys.music-artist",
+        "alias": "music-artist",
+        "userDefined": false
+      },
+      {
+        "text": " Group of Institution provide?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7331c7e2-79e8-4ab6-818f-85a2e3ddbe30",
+    "data": [
+      {
+        "text": "What courses are offered?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

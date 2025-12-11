@@ -1,0 +1,28 @@
+[
+  {
+    "id": "cb43d6fc-113e-443e-970a-e39ef01d00fe",
+    "data": [
+      {
+        "text": "How can I contact?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e8d2d5aa-345c-4eb0-a76b-f08da4eae203",
+    "data": [
+      {
+        "text": "What is the contact number of college?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
